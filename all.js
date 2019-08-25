@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-
+//aore
   var _WINDOW = {};
   var _DOCUMENT = {};
 
