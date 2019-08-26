@@ -148,12 +148,17 @@ nav{
 }
 
 .service{
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-left: 7%;
     color: #f5f3f5;
-    display: flex;
-    margin: 40px;
+    display: block;
 }
 
 .service-icon{
+    height: 60px;
+    width: 60px;
     align-self: center;
     font-size: 60px;
     margin-right: 20px;
@@ -174,7 +179,7 @@ margin-top: 5px;
 
 @media screen and (min-height:576px){
     .services-center{
-        width: 70%;
+        width: 100%;
     }
 }
 
