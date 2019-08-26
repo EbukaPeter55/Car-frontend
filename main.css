@@ -21,7 +21,10 @@ nav ul a{
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    color:#ad343e;
+    /*Changes on Nav*/
+    font-weight:bold;
+    color:#F14564;
+    /*color:#ad343e;*/
     transition: color 2s ease,background 2s 
     ease,padding 2s ease;
 }
