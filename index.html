@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Company</title>
     <!--main.css-->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
     <!--font awesome--> 
+      <link rel = "icon" type = "image/png" href = "img/logo.png">
     <script src="all.js"></script>
 </head>
 
@@ -17,7 +18,7 @@
 <header>
 <nav>
     <div class="nav-container">
-        <img src="img/logo.png" alt="img">
+        <img src="img/logo.png" alt="img" height="300px" width="300px">
         <div class="btn">
          <div class="bar"></div>
          <div class="bar"></div>   
@@ -61,7 +62,7 @@
  <div class="services-center">
      <article class="service">
          <div class="service-icon">
-             <i class="fas fa-wrench"></i>
+             <a href="#" class="icon-link"><i class="fas fa-wrench"></i></a>
          </div>
          <div class="service-text">
              <h3>excellent repair</h3>
@@ -71,7 +72,7 @@
      </article>
      <article class="service">
         <div class="service-icon">
-            <i class="fas fa-car"></i>
+            <a href="#" class="icon-link"><i class="fas fa-car"></i></a>
         </div>
         <div class="service-text">
             <h3>Newest cars</h3>
@@ -81,7 +82,7 @@
     </article>
     <article class="service">
         <div class="service-icon">
-            <i class="fas fa-space-shuttle"></i>
+            <a href="#" class="icon-link"><i class="fas fa-space-shuttle"></i></a>
         </div>
         <div class="service-text">
             <h3>Striving for more</h3>
@@ -154,8 +155,8 @@
 <article class="contact-card">
     <form>
         <h3>contact us</h3>
-        <input type="text" id="name" placeholder="Your name">
-        <input type="text" id="email" placeholder="Your email">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="text" id="email" placeholder="Your email" required autocomplete="off">
     <textarea name="comment" id="" cols="30" rows="10" placeholder="Leave a comment">
     </textarea>
     <button type="submit" class="form-btn">Submit</button>
