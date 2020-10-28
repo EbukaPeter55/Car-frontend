@@ -5,7 +5,7 @@
 
 
 body{
-    font-family: 'Mukta Mahee', sans-serif;
+    font-family: 'ALEGREYA', sans-serif;
 }
 
 /*###########Styling the navigation bar links##########*/
@@ -21,7 +21,7 @@ nav ul a{
     font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    color:#ad343e;
+    color:WHITE;
     transition: color 2s ease,background 2s 
     ease,padding 2s ease;
 }
@@ -60,7 +60,7 @@ nav ul a:hover{
 }
 
 header{
-    min-height: 100vh;
+    min-height: 80vh;
     background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),
     url(img/header-car.jpg)center/cover fixed no-repeat;
     display: flex;
@@ -77,10 +77,15 @@ nav{
     display: flex;
     justify-content: center;
     align-content: center;
-    text-align: center;
+    text-align: center; 
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    bottom:300px;
+    position: absolute;
 }
 
-.banner h1{
+.bannerh1{
     font-size: 50px;
     text-transform: uppercase;
     color: #ad343e;
@@ -313,15 +318,17 @@ margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 /*#Child container#*/
 .contact-card{
     flex:0 0 80%;
     padding: 40px 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(255,255,255,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 form{
     flex: 0 0 60%;
@@ -331,17 +338,18 @@ form{
 
 form input{
     margin: 10px 0;
+
 }
 form h3{
     text-align: center;
     text-transform: uppercase;
-    color: #ad343e;
+    color: BLACK;
 }
 
 form input,
 form textarea{
     padding: 5px;
-    border: 3px solid #ad343e;
+    border: 3px solid BLACK;
 }
 
 input::placeholder,
@@ -355,7 +363,7 @@ textarea::placeholder{
     font-size: 20px;
     border-radius: 40px;
     padding: 5px;
-    background: #ad343e;
+    background: BLACK;
     color: #f5f3f5;
     transition: color 1s ease-in-out,background 1s
     ease-in-out
